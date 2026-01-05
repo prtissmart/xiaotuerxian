@@ -1,0 +1,107 @@
+.w {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+/* <!--1. 网页头部 -->*/
+.shortcut {
+    height: 52px;
+    background-color: #333;
+}
+
+.shortcut ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 52px;
+}
+
+.shortcut li a {
+    color: #fff;
+}
+
+.shortcut li a:hover {
+    color: #5EB69C;
+}
+
+.shortcut li:first-child a {
+    color: #5EB69C;
+}
+
+.shortcut li.line {
+    height: 12px;
+    width: 1px;
+    background-color: #999;
+    margin: 0 15px;
+}
+
+.shortcut li a i {
+    font-size: 18px;
+    margin-right: 4px;
+}
+
+/* <!-- 1.1快捷导航部分 -->  */
+/* 1.2header部分制作 */
+.header {
+    height: 132px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    width: 200px;
+    height: 88px;
+    background-color: skyblue;
+}
+
+.header .logo h1 {
+    width: 100%;
+    height: 100%;
+}
+
+.header .logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url(../images/logo.png) no-repeat;
+    text-indent: -158px;
+    overflow: hidden;
+}
+
+.nav {
+    display: flex;
+    gap: 48px;
+}
+
+.nav li a {
+    display: block;
+    height: 40px;
+    line-height: 40px;
+}
+
+.nav li a:hover {
+    color: #5EB69C;
+    border-bottom: 2px solid #5EB69C;
+}
+
+.search input {
+    width: 170px;
+    height: 40px;
+    border-bottom: 2px solid #F4F4F4;
+    padding-left: 28px;
+    font-size: 16px;
+}
+
+.search input::placeholder {
+    font-size: 16px;
+    color: #ccc;
+}
+
+.car i {
+    font-size: 40px;
+    margin-right: 15px;
+}
+
+/* <!-- 网页底部 --> */
