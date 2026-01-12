@@ -1,3 +1,5 @@
+/* this is for every page */
+/* 版心 */
 .w {
     width: 1240px;
     margin: 0 auto;
@@ -104,4 +106,43 @@
     margin-right: 15px;
 }
 
-/* <!-- 网页底部 --> */
+/* <!-- 2.网页底部 --> */
+.footer {
+    height: 580px;
+    background-color: #F5F5F5;
+}
+
+.slogon {
+    height: 178px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.slogon ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 178px;
+}
+.slogon ul li {
+    display: flex;
+    align-items: center;
+}
+.slogon ul li h5 {
+    width: 58px;
+    height: 58px;
+    background: url(../images/sprite.png);
+}
+.slogon ul li p {
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+.slogon ul li .two {
+    background-position: 0 -58px;
+}
+.slogon ul li .three {
+    background-position: 0 -116px;
+}
+.slogon ul li .four {
+    background-position: 0 -174px;
+}
