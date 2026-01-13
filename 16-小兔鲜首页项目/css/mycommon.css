@@ -146,3 +146,53 @@
 .slogon ul li .four {
     background-position: 0 -174px;
 }
+
+/* service moudle */
+.service {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.service-left dt{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.service-left {
+    display: flex;
+    gap: 84px;
+}
+.service-left dd a {
+    font-size: 16px;
+    color: #969696;    
+}
+.service-left dd {
+    margin-bottom: 10px;
+}
+.service-left dd a i {
+    color: #00BE9A;
+}
+
+.service-right ul{
+    display: flex;
+    text-align: center;
+    gap: 55px;
+}
+.service-right ul p{
+    font-size: 16px;
+    color: #969696;
+    margin-top: 10px;
+}
+
+/* copyright moudle */
+.copyright {
+    text-align: center;
+    margin-top: 100px;
+    line-height: 30px;
+    color: #A1A1A1 ;
+}
+.copyright a {
+    color: #A1A1A1 ;
+}
+.copyright a:hover{
+    color: orangered;
+}

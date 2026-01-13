@@ -1,1 +1,55 @@
 /* this is for index page */
+.entry{
+    height: 500px;
+    background-color: #F5F5F5;
+}
+.entry .w{
+    height: 100%;
+    background: url(../uploads/banner1.png) no-repeat ;
+}
+.category {
+    width: 250px;
+    height: 100%;
+    background-color: rgba(0, 0,0, .42);
+}
+.category ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 12px 0 29px;
+    color: #fff;
+}
+.category ul li:hover {
+    background-color: #5EB69C;
+    cursor: pointer;
+}
+.category ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+
+.category ul li a:first-child {
+    font-size: 16px;
+    margin-right: 14px;
+}
+
+/* fresh goods section */
+.box-Hd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+}
+.box-Hd h2 {
+    font-size: 30px;
+}
+.box-Hd h2 small {
+    font-size: 16px;
+    color: #A1A1A1 ;
+    margin-left: 35px;
+}
+.box-Hd a {
+    font-size: 16px;
+    color: #A1A1A1;
+}
