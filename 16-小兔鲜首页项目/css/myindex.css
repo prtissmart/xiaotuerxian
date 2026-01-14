@@ -53,3 +53,48 @@
     font-size: 16px;
     color: #A1A1A1;
 }
+.box-bd ul {
+    display: flex;
+    justify-content: space-between;
+}
+.box-bd ul li {
+    width: 304px;
+    height: 404px;
+    text-align: center;
+    background-color: #EEF9F4;
+}
+.box-bd ul li img{
+    width: 304px;
+    height: 304px;
+}
+.box-bd ul li .title {
+    margin: 18px 0 15px 0;
+    font-size: 20px;
+    padding: 0 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.box-bd ul li .price {
+    font-size: 22px;
+    color: #AA2113;
+}
+.box-bd ul li small {
+    font-size: 18px;
+}
+
+.box-bd ul li a {
+    display: block;
+    height: 100%;
+}
+
+.hot .box-bd ul li {
+    background-color: #fff;
+}
+.hot {
+    margin-bottom: 60px;
+}
+.hot .box-bd ul li .price {
+    font-size: 16px;
+    color: #A1A1A1;
+}
