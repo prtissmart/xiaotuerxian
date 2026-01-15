@@ -117,21 +117,24 @@
     border-bottom: 1px solid #e8e8e8;
 }
 
-.slogon ul{
+.slogon ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 178px;
 }
+
 .slogon ul li {
     display: flex;
     align-items: center;
 }
+
 .slogon ul li h5 {
     width: 58px;
     height: 58px;
     background: url(../images/sprite.png);
 }
+
 .slogon ul li p {
     font-size: 28px;
     margin-left: 20px;
@@ -140,9 +143,11 @@
 .slogon ul li .two {
     background-position: 0 -58px;
 }
+
 .slogon ul li .three {
     background-position: 0 -116px;
 }
+
 .slogon ul li .four {
     background-position: 0 -174px;
 }
@@ -153,31 +158,37 @@
     justify-content: space-between;
     margin-top: 60px;
 }
-.service-left dt{
+
+.service-left dt {
     font-size: 18px;
     margin-bottom: 30px;
 }
+
 .service-left {
     display: flex;
     gap: 84px;
 }
+
 .service-left dd a {
     font-size: 16px;
-    color: #969696;    
+    color: #969696;
 }
+
 .service-left dd {
     margin-bottom: 10px;
 }
+
 .service-left dd a i {
     color: #00BE9A;
 }
 
-.service-right ul{
+.service-right ul {
     display: flex;
     text-align: center;
     gap: 55px;
 }
-.service-right ul p{
+
+.service-right ul p {
     font-size: 16px;
     color: #969696;
     margin-top: 10px;
@@ -188,11 +199,13 @@
     text-align: center;
     margin-top: 100px;
     line-height: 30px;
-    color: #A1A1A1 ;
+    color: #A1A1A1;
 }
+
 .copyright a {
-    color: #A1A1A1 ;
+    color: #A1A1A1;
 }
-.copyright a:hover{
+
+.copyright a:hover {
     color: orangered;
 }
