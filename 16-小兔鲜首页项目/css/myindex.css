@@ -5,11 +5,16 @@
 }
 
 .entry .w {
+    position: relative;
     height: 100%;
-    background: url(../uploads/banner1.png) no-repeat;
+    /* background: url(../uploads/banner1.png) no-repeat; */
 }
 
 .category {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
     width: 250px;
     height: 100%;
     background-color: rgba(0, 0, 0, .42);
@@ -38,7 +43,46 @@
     font-size: 16px;
     margin-right: 14px;
 }
-
+.banner {
+    position: relative;
+}
+.banner .circle {
+    display: flex;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.banner .circle li {
+    width: 14px;
+    height: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 50%;
+    margin: 0 8px;
+}
+.banner .circle li:hover {
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.5);
+    background-color: #fff;
+}
+.banner .next i,.banner .prev i {
+    text-align: center;
+    line-height: 60px;
+    color: #fff;
+    font-size: 35px;
+}
+.banner .next,.banner .prev {
+    position: absolute;
+    top: 50%;
+    width: 40px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .5);
+    margin-top: -30px;
+}
+.banner .next {
+    right: 0;
+}
+.banner .prev {
+    left: 250px;
+}
 /* fresh goods section */
 .box-Hd {
     display: flex;

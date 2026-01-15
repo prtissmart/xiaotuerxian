@@ -45,6 +45,9 @@
 /* <!-- 1.1快捷导航部分 -->  */
 /* 1.2header部分制作 */
 .header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
     height: 132px;
     background-color: white;
     display: flex;
@@ -105,7 +108,18 @@
     font-size: 40px;
     margin-right: 15px;
 }
-
+.car {
+    position: relative;
+}
+.car span {
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    padding: 2px 5px;
+    background-color: orangered;
+    border-radius: 8px;
+    color: #fff;
+}
 /* <!-- 2.网页底部 --> */
 .footer {
     height: 580px;
